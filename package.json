@@ -1,6 +1,6 @@
 {
   "name": "@santi100/factorial-lib",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "main": "cjs/index.js",
   "module": "index.js",
   "typings": "cjs/index.d.ts",
@@ -11,22 +11,10 @@
     "typescript": "^4.9.5"
   },
   "author": "santi100a <santyrojasprieto9@gmail.com>",
-  "description": "Santi's Sorting Library: Many sorting algorithms in one package!",
+  "description": "Santi's Factorial Library: A small factorial function!",
   "keywords": [
-    "sorting", "sort", "algorithm"
+    "factorial", "lightweight", "small"
   ],
-"exports": {
-  ".": {
-    "import": "./index.js",
-    "require": "./cjs/index.js",
-    "types": "./cjs/index.d.ts"
-  },
-  "./cjs": {
-    "import": "./cjs/index.js",
-    "require": "./cjs/index.js",
-    "types": "./cjs/index.d.ts"
-  }
-},
   "repository": {
     "url": "https://github.com/santi100a/factorial-lib"
   },
