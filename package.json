@@ -24,7 +24,8 @@
     "factorial", "lightweight", "small"
   ],
   "repository": {
-    "url": "https://github.com/santi100a/factorial-lib"
+    "url": "https://github.com/santi100a/factorial-lib",
+    "type": "git"
   },
   "scripts": {
     "build": "tsc",
