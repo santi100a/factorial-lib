@@ -10,6 +10,7 @@ function __isInteger(num: number) {
 		(num < 0 ? Math.ceil(num) : Math.floor(num)) === num
 	);
 }
+
 /**
  * Computes and returns the factorial of `n`.
  * Returns -1 if `n` is negative, or `NaN` if it's infinite, itself `NaN` or a float.
