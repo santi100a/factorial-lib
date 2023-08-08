@@ -23,20 +23,25 @@ This is a small, lightweight library for computing the factorial of any positive
 ## API
 
 - `function factorial(n: number): number;`
-Returns -1 if $n$ is negative, or `NaN` if it's infinite, itself `NaN` or a float.
+Returns `NaN` if $n$ is negative, infinite, itself `NaN` or a float.
 
 It takes the number for which the factorial is to be calculated, and returns $n!$
 
 ## Usage
 
 ```typescript
-import { factorial } from '@santi100/factorial-lib'; // ESM
+// ESM
+import { factorial } from '@santi100/factorial-lib'; 
+import factorial from '@santi100/factorial-lib';
+
+import factorial = require('@santi100/factorial-lib'); // TypeScript
+
 const { factorial } = require('@santi100/factorial-lib'); // CJS
 
 console.log(factorial(5)); // prints 120
 console.log(factorial(7)); // prints 5,040
 
-console.log(factorial(-60)); // prints -1
+console.log(factorial(-60)); // prints NaN
 console.log(factorial(3.5)); // prints NaN
 console.log(factorial(NaN)); // prints NaN
 console.log(factorial(Infinity)); // prints NaN
