@@ -1,3 +1,4 @@
 import cjsModule from './cjs/index.js';
 /*eslint no-empty-pattern: "warn"*/
-export const { __esModule, factorial } = cjsModule;
+export const { factorial } = cjsModule;
+export default cjsModule;

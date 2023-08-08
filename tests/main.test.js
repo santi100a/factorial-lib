@@ -1,5 +1,5 @@
 describe('factorial function test suites', () => {
-	const { factorial } = require('../cjs');
+	const factorial = require('..');
 	test("it's a valid function", () => {
 		expect(factorial).toBeInstanceOf(Function);
 	});
@@ -13,7 +13,7 @@ describe('factorial function test suites', () => {
 		expect(factorial(1)).toBe(1);
 	});
 	test('it can handle invalid numbers correctly', () => {
-		expect(factorial(-5)).toBe(-1);
+		expect(factorial(-5)).toBe(NaN);
 		expect(factorial(NaN)).toBe(NaN);
 		expect(factorial(35.7)).toBe(NaN);
 		expect(factorial(-Infinity)).toBe(NaN);

@@ -1,10 +1,26 @@
 {
   "name": "@santi100/factorial-lib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "cjs/index.js",
-  "module": "index.js",
   "typings": "cjs/index.d.ts",
+  "module": "index.mjs",
   "license": "MIT",
+  "author": "santi100a <santyrojasprieto9@gmail.com>",
+  "description": "Santi's Factorial Library: A small factorial function!",
+  "keywords": [
+    "factorial", "lightweight", "small"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/santi100a"
+  },
+  "repository": {
+    "url": "https://github.com/santi100a/factorial-lib",
+    "type": "git"
+  },
+  "dependencies": {
+    "@santi100/assertion-lib": "^2.0.1"
+  },
   "devDependencies": {
     "@types/jest": "^29.4.1",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
@@ -17,15 +33,6 @@
     "remark-gfm": "^3.0.1",
     "remark-validate-links": "^12.1.1",
     "typescript": "^4.9.5"
-  },
-  "author": "santi100a <santyrojasprieto9@gmail.com>",
-  "description": "Santi's Factorial Library: A small factorial function!",
-  "keywords": [
-    "factorial", "lightweight", "small"
-  ],
-  "repository": {
-    "url": "https://github.com/santi100a/factorial-lib",
-    "type": "git"
   },
   "scripts": {
     "build": "tsc",
